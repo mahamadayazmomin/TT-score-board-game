@@ -1,0 +1,143 @@
+h1{
+    color: rgb(34, 24, 220);
+    text-align: center;
+    font-size: 4rem;
+    border: 0.2rem solid maroon;
+    border-radius: 0.5rem;
+}
+
+section{
+    background-color:whitesmoke;
+    width: 40rem;
+    height: 8rem;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 10%);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.points1{
+    background-color: aqua;
+    height: 8rem;
+    width: 10rem;
+}
+
+.points2{
+    background-color:rgba(156, 236, 227, 0.85);
+    height: 8rem;
+    width: 10rem;
+}
+
+#player1{
+    font-family:cursive;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    left: 12%;
+    transform: translate(-0.50%, 30%);
+}
+
+#player2{
+    font-family:cursive;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    left: 12%;
+    transform: translate(-0.50%, 30%);
+}
+
+#area{
+    width: 40rem;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 265%);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#player1points{
+    font-family:cursive;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    left: 12%;
+    transform: translate(25%, 30%);
+}
+
+#player2points{
+    font-family:cursive;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    left: 12%;
+    transform: translate(25%, 30%);
+}
+
+.dropdown{
+    left: 50%;
+    right: 50%;
+    transform: translate(48.5%, 800%);
+}
+
+.actions{
+    display:flex;
+    transform: translate(02rem, 01rem);
+    height: 3.2rem;
+    width: 35rem;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+
+#incrementP1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    width: 6rem;
+    height: 3.2rem;
+    background-color: rgb(54, 54, 54);
+    border-radius: 1.5rem;
+}
+
+#incrementP1:hover{
+    border-color: white;
+}
+
+#incrementP2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    width: 6rem;
+    height: 3.2rem;
+    background-color: rgb(54, 54, 54);
+    border-radius: 1.5rem;
+}
+
+#incrementP2:hover{
+   border-color: white;
+}
+
+#reset{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 6rem;
+    height: 3.2rem;
+    border-radius: 1.5rem;
+}
+
+#reset:hover{
+    border-color: white;
+}
+
+#winnerName{
+    color: green;
+    font-size: 1.6rem;
+    display: flex;
+    position: relative;
+    transform: translate(0%, 150%);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

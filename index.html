@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <!--Title name-->
+    <title>TT score board</title>
+         <!--CSS link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!--Heading name-->
+  <h1>Ping pong score board</h1>
+        
+    <section>
+            <!--Player 1-->
+        <div class="points1">
+            <label for="player1points" id="player1">Player 1</label>
+            <div id="player1points">0</div>
+        </div>
+            <!--Winner name-->
+        <div class="winnername">
+            <span id="winnerName"></span>
+        </div>
+           <!--Player 2-->
+        <div class="points2">
+            <label for="player2points" id="player2">Player 2</label>
+            <div id="player2points">0</div>
+        </div>
+    </section>
+           <!--Dropdown-->
+        <div class="dropdown">
+            <select id="winningScoreCount">
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+            </select>
+        </div>
+
+        <section id="area">
+          <!--Button's-->
+        <div class="actions">
+            <button id="incrementP1"><b>Increment Player 1 points</b></button>
+            <button id="reset"><b>Reset</b></button>
+            <button id="incrementP2"><b>Increment Player 2 points</b></button>
+        </div>
+        </section>
+                   <!--Javascript link-->
+        <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
