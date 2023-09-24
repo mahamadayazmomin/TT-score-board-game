@@ -1,15 +1,42 @@
+*{ margin: 0; padding: 0;}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start; 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background: #eee;
+}
+
 h1{
     color: rgb(34, 24, 220);
-    text-align: center;
     font-size: 4rem;
     border: 0.2rem solid maroon;
     border-radius: 0.5rem;
+    display: flex;
+    position: relative;
+    transform: translate(0%, 10%);
 }
 
 section{
     background-color:whitesmoke;
+    align-items: center;
+    bottom: 55%;
     width: 40rem;
-    height: 8rem;
+    height: 8srem;
     position: absolute;
     left: 50%;
     right: 50%;
@@ -55,7 +82,7 @@ section{
     position: absolute;
     left: 50%;
     right: 50%;
-    transform: translate(-50%, 265%);
+    transform: translate(-50%, 240%);
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -78,16 +105,21 @@ section{
     transform: translate(25%, 30%);
 }
 
-.dropdown{
+#dropdown{
+    height: 3.5%;
+    width: 4%;
     left: 50%;
     right: 50%;
     transform: translate(48.5%, 800%);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
 .actions{
     display:flex;
     transform: translate(02rem, 01rem);
-    height: 3.2rem;
+    height: 5rem;
     width: 35rem;
     display: flex;
     flex-direction:row;
@@ -129,7 +161,7 @@ section{
 }
 
 #reset:hover{
-    border-color: white;
+    border-color: white;    
 }
 
 #winnerName{
@@ -137,7 +169,7 @@ section{
     font-size: 1.6rem;
     display: flex;
     position: relative;
-    transform: translate(0%, 150%);
+    transform: translate(0%, 7%);
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
