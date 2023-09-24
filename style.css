@@ -113,7 +113,7 @@ section{
     width: 4%;
     left: 47%;
     right: 50%;
-    transform: translate(48.5%, 200%);
+    transform: translate(48.5%, 100%);
     display: flex;
     flex-direction:row;
     justify-content:space-between;
