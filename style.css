@@ -21,6 +21,7 @@ body{
   background: #eee;
 }
 
+
 h1{
     color: rgb(34, 24, 220);
     font-size: 4rem;
@@ -29,6 +30,7 @@ h1{
     display: flex;
     position: relative;
     transform: translate(0%, 10%);
+    
 }
 
 section{
@@ -78,8 +80,9 @@ section{
 
 #area{
     width: 40rem;
-    height: 5rem;
+    height: 6rem;
     position: absolute;
+    
     left: 50%;
     right: 50%;
     transform: translate(-50%, 240%);
@@ -108,9 +111,9 @@ section{
 #dropdown{
     height: 3.5%;
     width: 4%;
-    left: 50%;
+    left: 47%;
     right: 50%;
-    transform: translate(48.5%, 800%);
+    transform: translate(48.5%, 280%);
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -161,7 +164,7 @@ section{
 }
 
 #reset:hover{
-    border-color: white;    
+    border-color: white;
 }
 
 #winnerName{
@@ -173,3 +176,8 @@ section{
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+  
+
+
