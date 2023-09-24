@@ -109,11 +109,11 @@ section{
 }
 
 #dropdown{
-    height: 3.5%;
+    height: 3%;
     width: 4%;
     left: 47%;
     right: 50%;
-    transform: translate(48.5%, 280%);
+    transform: translate(48.5%, 150%);
     display: flex;
     flex-direction:row;
     justify-content:space-between;
